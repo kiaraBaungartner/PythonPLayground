@@ -1,3 +1,7 @@
+#install
+#pip install pandas
+#pip install twilio
+
 #import
 import pandas as pd
 import os
