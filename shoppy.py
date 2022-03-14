@@ -1,6 +1,7 @@
 #install
 #pip install pandas
 #pip install twilio
+#pip install openpyxl
 
 #import
 import pandas as pd
@@ -25,5 +26,3 @@ for mes in listaMeses:
         to='+5511930307349',
         body = f'no mes de {mes}, a pessoa {vendedor}, bateu a meta de vendas com {vendas} R$')
         print(message.sid)
-
-
